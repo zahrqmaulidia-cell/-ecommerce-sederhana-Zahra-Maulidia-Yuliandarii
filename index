@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girl's Just Wanna Have Fun</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Logo Girl's Just Wanna Have Fun" width="100">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#kategori">Kategori</a></li>
+                <li><a href="#keranjang">Keranjang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- HERO SECTION -->
+        <section id="home" class="hero">
+            <img src="banner.png" alt="Banner Toko Girl's Just Wanna Have Fun" width="100%">
+            <h2>Selamat Datang di Girl's Just Wanna Have Fun</h2>
+            <p>Temukan outfit gemes dan stylish favoritmu!</p>
+            <button>Belanja Sekarang</button>
+        </section>
+
+        <!-- PRODUK -->
+        <section id="produk" class="produk">
+            <h2>Produk Unggulan</h2>
+
+            <div class="produk-list">
+
+                <!-- PRODUK 1 -->
+                <div class="produk-item">
+                    <img src="produk 1.jpg" alt="Hoodie Gemes" width="200">
+                    <h3>Hoodie Gemes</h3>
+                    <p>Rp 180.000</p>
+                    <button>Tambah ke Keranjang</button>
+                </div>
+
+                <!-- PRODUK 2 -->
+                <div class="produk-item">
+                    <img src="produk 2.jpg" alt="Rok Pendek Gemes" width="200">
+                    <h3>Rok Pendek Gemes</h3>
+                    <p>Rp 120.000</p>
+                    <button>Tambah ke Keranjang</button>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section id="kontak">
+            <h3>Kontak Kami</h3>
+            <p>Email: girlsfun@email.com</p>
+            <p>Telp: 0812-3456-7890</p>
+        </section>
+
+        <p>&copy; 2026 Girl's Just Wanna Have Fun. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
